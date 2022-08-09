@@ -19,7 +19,20 @@ body, html {
   line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
+.btn {
+  background-color: transparent;
+  border: 2px solid #33CFCE;
+  color: white;
+  padding: 12px 80px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #05B8B8;
+}
+
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -108,7 +121,7 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I've come to learn that support and maintenance are the most important things a client needs. Highest quality in all categories is guaranteed when you work with me..</p>
+      <p>Welcome to my website. I'm a CyberSecurity researcher, Just Keep in mind, I may look like but, I ai'nt a bad guy, As of now, if you  I've come to learn that support and maintenance are the most important things a client needs. Highest quality in all categories is guaranteed when you work with me.</p>
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
@@ -250,11 +263,11 @@ body, html {
         <img src="./images/logos/email.png" width="30px">
         <i class="fa fa-fw w3-hover-text-black w3-xlarge w3-margin-right">&nbsp;</i> Email: aniketison@gmail.com<br>
         
-       
-    <object data="./files/ResumeV6.pdf" type="application/pdf">
-        <div>No online PDF viewer installed</div>
-    </object>
-        
+        <span>
+      <iframe style="border-radius: 5px;" src="./files/ResumeV6.pdf" height="170px" width="600px"></iframe> <br>
+      <button class="btn"> <i class="fa fa-download"></i> <a href="./files/ResumeV6.pdf" target="_blank">Preview</a> </button>
+      <button class="btn"> <i class="fa fa-download"></i> <a href="./files/ResumeV6.pdf" download> Save </a> </button>
+      </span>
         
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
